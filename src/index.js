@@ -7,7 +7,7 @@ var shows = require('./shows');
 
 
 ReactDOM.render(
-    <Show showIndex={1} shows={shows} />,
+    <Show shows={shows} />,
     document.getElementById('root')
 );
 
